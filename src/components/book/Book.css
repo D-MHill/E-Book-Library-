@@ -1,0 +1,58 @@
+.btn-add{
+    color:black;
+}
+
+.book-box{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 25%;
+  
+}
+
+.book-container {
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .book-details {
+    flex: 1; 
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  .book-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-author {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .book-image {
+    margin-left: 20px; 
+    height: 150;
+  }
+  
+  .btn-add {
+    display: block;
+    background-color: rgb(206, 180, 96);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+  
+  .btn-add:hover {
+    background-color: rgb(94, 73, 5);
+  }
+  

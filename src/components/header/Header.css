@@ -1,0 +1,33 @@
+
+nav{
+    margin-bottom: 80px;
+    background-color: rgb(206, 180, 96);
+    padding-bottom: 10px;
+}
+
+
+.logo{
+    background-color: rgb(4, 24, 41);
+    height: 40px;
+    image-rendering: src;
+   
+}
+
+img{
+    height: 80px;
+  
+    
+}
+.logo2{
+    color: white;
+    display: flex; 
+    background-color: rgb(5, 24, 41);
+    
+ 
+ }
+
+.header-link {
+    margin-right: 15px;
+    color: black;
+  }
+  

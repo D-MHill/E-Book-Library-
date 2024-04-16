@@ -1,0 +1,9 @@
+footer{
+    margin:auto;
+    background-color: rgb(4, 24, 41);
+    color: white;
+    height: 5vh;
+    position: relative;
+    bottom: 0;
+
+}

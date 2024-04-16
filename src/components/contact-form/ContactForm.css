@@ -1,0 +1,53 @@
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  height: 70vh;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+textarea {
+  resize: vertical; 
+}
+
+.submit {
+  display: block;
+  background-color: rgb(206, 180, 96);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; 
+  margin-left: 35% ;
+  width: 30%;
+}
+
+.submit:hover {
+  background-color: rgb(94, 73, 5);
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* Adjust for the header height */
+}
